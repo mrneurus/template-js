@@ -1,0 +1,14 @@
+# tres filas
+% dos columnas
+
+fila 1: LOGO LINKS
+
+FILA HEADINF IMG
+
+CONTEN
+    SUB_FILA A
+        DOS COLUMNAS
+    sub_fila_B
+        DOS COLUMNAS
+    SUB:FILA_C
+        UNA COLUMNA
