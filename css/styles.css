@@ -171,7 +171,7 @@ body {
 .contenedor .call-action .ver-mas {
   margin-top: 30px;
   margin-bottom: 30px;
-  border: solid 2px #ffff;
+  border: solid 2px #FE6A6A;
   height: 60px;
   width: 300px;
   text-align: center;
@@ -179,7 +179,7 @@ body {
 }
 
 .contenedor .call-action .ver-mas a {
-  color: #ffff;
+  color: #FE6A6A;
   text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
