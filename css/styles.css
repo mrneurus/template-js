@@ -37,7 +37,7 @@ body {
 }
 
 .contenedor .header-nav .logo {
-  border: solid 2px #ffff;
+  border: solid 2px #41c7c7;
   width: 150px;
   height: 40px;
   border-radius: 10px;
@@ -56,7 +56,7 @@ body {
 
 .contenedor .header-nav .logo a {
   text-align: center;
-  color: #ffff;
+  color: #41c7c7;
   text-decoration: none;
 }
 
