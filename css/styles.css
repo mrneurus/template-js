@@ -9,6 +9,17 @@ body {
   background-color: #222429;
 }
 
+.boton {
+  margin-top: 16px;
+  margin-left: 16px;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid 2px #ffff;
+  background-color: transparent;
+  color: #ffff;
+  cursor: pointer;
+}
+
 .contenedor {
   border: solid 2px #ffff;
   height: 100%;
