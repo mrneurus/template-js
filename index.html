@@ -9,9 +9,12 @@
 <body>
     <main class="contenedor" > 
         <header>
+                <button id="mode" class="boton">Change-Mode</button>
+                <button id='btn-insertar' class="boton" >Insertar Elemento</button>
+                <button id='btn-negrita' class="boton">Negrita</button>
                 <nav class="header-nav">
                     <div class="logo"><a href="">Logo</a></div>
-                    <ul>
+                    <ul id="menu-nav">
                         <li><a href="">Item 1</a></li>
                         <li><a href="">Item 2</a></li>
                         <li><a href="">Item 3</a></li>
@@ -21,23 +24,25 @@
                 <section class="header-heading">
                     <div class="text-heading">
                         <h1>Heading</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto, quas tempora tempore maiores eaque repudiandae ex repellendus illum error?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto, quas tempora tempore maiores eaque repudiandae ex repellendus illum error? 
+                            <span>NegritaJs</span>
+                        </p>
                     </div>
-                    <div class="imagen">
-                        <a href="">IMG</a>
+                    <div class="imagen" id='imagen'>
+                        <a href="">IMG </a>
 
                     </div>
                 </section>
         </header>
 
         <section class="part-name"> 
-            <div class="imagenes" >
-                <div class="imagen-name"><a href="">IMG</a></div>
-                <div class="imagen-name"><a href="">IMG</a></div>
+            <div class="imagenes" id="imagenes" >
+                <div class="imagen-name" id="img-A"><a href="">IMAGEN-A</a></div>
+                <div class="imagen-name" id="img-B"><a href="">IMAGEN-B</a></div>
                 
             </div>  
             <div class="call-action">
-            <div class="ver-mas">
+            <div class="ver-mas" id="btn-ver"> 
                 <a href="">Ver Mas</a>
             </div>
         </div>
@@ -45,5 +50,6 @@
 
 
     </main>
+    <script src="js/app.js" ></script>
 </body>
 </html>

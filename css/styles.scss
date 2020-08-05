@@ -5,14 +5,30 @@
 
 }
 
+
+
 $bg-primary:rgb(34, 36, 41);
 $color-text:#ffff;
 $color-border-logo:rgb(65, 199, 199);
+
 
 body{
     background-color:$bg-primary;
    
 }
+    .boton{
+        margin-top: 16px;
+        margin-left: 16px;
+        padding: 10px;
+        border-radius: 20px;
+        border:solid 2px $color-text;
+        background-color: transparent;
+        color: $color-text;
+        cursor: pointer;
+        
+    }
+
+
 
 .contenedor{
     border: solid 2px $color-text;
@@ -142,6 +158,8 @@ body{
        align-items: center;
         justify-content: center;
 
+
+
     .ver-mas{
        
         margin-top: 30px;
@@ -156,14 +174,13 @@ body{
             color:#FE6A6A;
             text-decoration: none;
         }
+
+        
     
     }
 
 }
 
 
-
-
-
-
 }
+
